@@ -1,0 +1,28 @@
+{
+  "session_id": "session-2026-09-04-1442",
+  "started": "2026-09-04T06:42:35.737Z",
+  "files_read": {
+    "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/format_spec.md": {
+      "count": 1,
+      "tokens": 1393,
+      "first_read": "2026-09-04T06:44:28.489Z",
+      "read_mtime": 1788434199744.9438,
+      "anatomy_hit": true
+    },
+    "/home/johan/youhwsh/overlaybd/docs/lsmt_lookup.md": {
+      "count": 1,
+      "tokens": 565,
+      "first_read": "2026-09-04T06:44:28.805Z",
+      "read_mtime": 1788494001355.0615,
+      "anatomy_hit": true
+    }
+  },
+  "files_written": [],
+  "edit_counts": {},
+  "anatomy_hits": 2,
+  "anatomy_misses": 0,
+  "repeated_reads_warned": 0,
+  "cerebrum_warnings": 0,
+  "stop_count": 3,
+  "reminders_sent": {}
+}

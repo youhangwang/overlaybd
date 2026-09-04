@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "bugs": [
+    {
+      "id": "bug-20260904-01",
+      "timestamp": "2026-09-04T10:58:00+08:00",
+      "error_message": "design.md repeated full-file Writes produced garbled/truncated CJK markdown (3 consecutive attempts; file once left at 13 lines mid-table)",
+      "file": "openspec/changes/arm64-sve-lsmt-lookup/design.md",
+      "root_cause": "long mixed CJK+markdown full-file regeneration corrupted mid-stream during a bad generation streak; blind overwrites without verification propagated the corruption",
+      "fix": "rebuild via small chunked heredoc appends with tail verification after each chunk; verified 67-line file, 7 headers, D1-D6 in order",
+      "tags": [
+        "generation-corruption",
+        "long-cjk-writes",
+        "chunked-writes",
+        "openspec"
+      ],
+      "occurrences": 3,
+      "last_seen": "2026-09-04T10:58:00+08:00"
+    },
+    {
+      "id": "bug-002",
+      "timestamp": "2026-09-04T03:26:27.626Z",
+      "error_message": "Wrong reference: small should be x",
+      "file": "src/overlaybd/lsmt/index.cpp",
+      "root_cause": "Used \"small\" instead of \"x\"",
+      "fix": "Changed small → x",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "cpp"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-09-04T03:26:27.626Z"
+    },
+    {
+      "id": "bug-003",
+      "timestamp": "2026-09-04T03:46:14.044Z",
+      "error_message": "Wrong condition in logic",
+      "file": "src/overlaybd/lsmt/index.cpp",
+      "root_cause": "Condition was: if ((trial & 7)",
+      "fix": "Changed to: if ((trial & 15)",
+      "tags": [
+        "auto-detected",
+        "logic-fix",
+        "cpp"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-09-04T03:46:16.331Z"
+    }
+  ]
+}

@@ -229,4 +229,11 @@ inline int foreach_segments(IMemoryIndex *idx, Segment s, CB1 cb_zero, CB2 cb_da
         cb_zero(s);
     return 0;
 }
+
+// Cross-validate every compiled inner-search implementation (scalar reference,
+// AVX-512 / NEON / SVE tiers according to build & platform) against the scalar
+// reference on randomized and boundary inputs, at kernel level (single nodes)
+// and tree level (random mapping sets, full tree walk). Returns # of
+// mismatches; 0 means every implementation agrees with the scalar reference.
+extern "C" int verify_inner_search_impls();
 } // namespace LSMT

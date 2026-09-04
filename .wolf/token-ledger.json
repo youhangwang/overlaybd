@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "created_at": "2026-09-03T11:22:50.267Z",
+  "lifetime": {
+    "total_tokens_estimated": 14338,
+    "total_reads": 14,
+    "total_writes": 23,
+    "anatomy_hits": 10,
+    "anatomy_misses": 3,
+    "repeated_reads_blocked": 0,
+    "estimated_savings_vs_bare_cli": 0,
+    "real_input_tokens": 6031625,
+    "real_output_tokens": 550525,
+    "real_cache_read_tokens": 84518464,
+    "real_cache_creation_tokens": 0,
+    "real_api_calls": 583,
+    "total_sessions": 7
+  },
+  "sessions": [
+    {
+      "id": "session-2026-09-03-1922",
+      "agent": "claude",
+      "started": "2026-09-03T11:22:59.077Z",
+      "ended": "2026-09-04T03:06:54.287Z",
+      "reads": [
+        {
+          "file": "/home/johan/youhwsh/overlaybd/CMakeLists.txt",
+          "tokens_estimated": 766,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/zfile/CMakeLists.txt",
+          "tokens_estimated": 653,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/zfile/crc32/crc32c.cpp",
+          "tokens_estimated": 674,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/.github/workflows/release.yml",
+          "tokens_estimated": 1444,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/index.cpp",
+          "tokens_estimated": 608,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/design.md",
+          "tokens_estimated": 156,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        }
+      ],
+      "writes": [
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/proposal.md",
+          "tokens_estimated": 449,
+          "action": "create"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/specs/lsmt-arm64-lookup/spec.md",
+          "tokens_estimated": 1134,
+          "action": "create"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/design.md",
+          "tokens_estimated": 908,
+          "action": "create"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/tasks.md",
+          "tokens_estimated": 453,
+          "action": "create"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/proposal.md",
+          "tokens_estimated": 74,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/proposal.md",
+          "tokens_estimated": 37,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/specs/lsmt-arm64-lookup/spec.md",
+          "tokens_estimated": 420,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/design.md",
+          "tokens_estimated": 1061,
+          "action": "create"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/design.md",
+          "tokens_estimated": 178,
+          "action": "create"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/tasks.md",
+          "tokens_estimated": 67,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/tasks.md",
+          "tokens_estimated": 32,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/tasks.md",
+          "tokens_estimated": 28,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 4301,
+        "output_tokens_estimated": 4841,
+        "reads_count": 6,
+        "writes_count": 12,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 5,
+        "anatomy_misses": 0,
+        "savings_estimated": 0
+      },
+      "real_usage": {
+        "input_tokens": 575472,
+        "output_tokens": 86651,
+        "cache_read_input_tokens": 6358912,
+        "cache_creation_input_tokens": 0,
+        "api_calls": 71
+      }
+    },
+    {
+      "id": "session-2026-09-04-1129",
+      "agent": "claude",
+      "started": "2026-09-04T03:29:59.663Z",
+      "ended": "2026-09-04T04:23:27.446Z",
+      "reads": [
+        {
+          "file": "/tmp/claude-1000/-home-johan-youhwsh-overlaybd/43744e3d-0a0b-4398-994c-510993e7cfbd/tasks/bwx0yvg5b.output",
+          "tokens_estimated": 19,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/home/johan/.claude/settings.json",
+          "tokens_estimated": 154,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/.claude/settings.json",
+          "tokens_estimated": 665,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/.claude/settings.local.json",
+          "tokens_estimated": 618,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/index.cpp",
+          "tokens_estimated": 75,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/index.cpp",
+          "tokens_estimated": 72,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/index.cpp",
+          "tokens_estimated": 8,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/index.cpp",
+          "tokens_estimated": 24,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/index.h",
+          "tokens_estimated": 146,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/index_sve.cpp",
+          "tokens_estimated": 189,
+          "action": "create"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/CMakeLists.txt",
+          "tokens_estimated": 128,
+          "action": "create"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/test/CMakeLists.txt",
+          "tokens_estimated": 16,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/tasks.md",
+          "tokens_estimated": 92,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 1456,
+        "output_tokens_estimated": 750,
+        "reads_count": 4,
+        "writes_count": 9,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 2,
+        "anatomy_misses": 2,
+        "savings_estimated": 0
+      },
+      "real_usage": {
+        "input_tokens": 1019297,
+        "output_tokens": 132071,
+        "cache_read_input_tokens": 16516672,
+        "cache_creation_input_tokens": 0,
+        "api_calls": 127
+      }
+    },
+    {
+      "id": "session-2026-09-04-1225",
+      "agent": "claude",
+      "started": "2026-09-04T04:25:55.941Z",
+      "ended": "2026-09-04T06:11:26.651Z",
+      "reads": [
+        {
+          "file": "/tmp/claude-1000/-home-johan-youhwsh-overlaybd/ebe358ba-a74d-4d77-9f03-35d7a811d36b/tasks/byt9fqycq.output",
+          "tokens_estimated": 474,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/CMakeLists.txt",
+          "tokens_estimated": 452,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        }
+      ],
+      "writes": [
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/CMakeLists.txt",
+          "tokens_estimated": 86,
+          "action": "edit"
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/CMakeLists.txt",
+          "tokens_estimated": 20,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 926,
+        "output_tokens_estimated": 106,
+        "reads_count": 2,
+        "writes_count": 2,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 1,
+        "anatomy_misses": 1,
+        "savings_estimated": 0
+      },
+      "real_usage": {
+        "input_tokens": 1937438,
+        "output_tokens": 152694,
+        "cache_read_input_tokens": 25650816,
+        "cache_creation_input_tokens": 0,
+        "api_calls": 172
+      }
+    },
+    {
+      "id": "session-2026-09-04-1442",
+      "agent": "claude",
+      "started": "2026-09-04T06:42:35.737Z",
+      "ended": "2026-09-04T08:38:43.446Z",
+      "reads": [
+        {
+          "file": "/home/johan/youhwsh/overlaybd/src/overlaybd/lsmt/format_spec.md",
+          "tokens_estimated": 1393,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/home/johan/youhwsh/overlaybd/docs/lsmt_lookup.md",
+          "tokens_estimated": 565,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 1958,
+        "output_tokens_estimated": 0,
+        "reads_count": 2,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 2,
+        "anatomy_misses": 0,
+        "savings_estimated": 0
+      },
+      "real_usage": {
+        "input_tokens": 2499418,
+        "output_tokens": 179109,
+        "cache_read_input_tokens": 35992064,
+        "cache_creation_input_tokens": 0,
+        "api_calls": 213
+      }
+    }
+  ],
+  "daemon_usage": [],
+  "waste_flags": [],
+  "optimization_report": {
+    "last_generated": null,
+    "patterns": []
+  }
+}

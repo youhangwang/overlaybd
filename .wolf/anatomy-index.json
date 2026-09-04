@@ -1,0 +1,2007 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-09-04T04:49:00.616Z",
+    "fileCount": 221,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "bccae38f59eb76c0f598910531f230c898da2101c3fd1aae385f87f18b45bba4",
+    "storeUpdatedAt": "2026-09-04T04:49:00.622Z"
+  },
+  "files": {
+    ".clang-format": {
+      "description": "",
+      "tokens": 58,
+      "hash": "a4f7a90bbfc2c196",
+      "size": 214,
+      "mtimeMs": 1788434199733.3982,
+      "updatedAt": "2026-09-03T11:22:50.281Z",
+      "source": "scan"
+    },
+    ".claude/commands/designqc.md": {
+      "description": "",
+      "tokens": 343,
+      "hash": "fb5066aac6fd7e5a",
+      "size": 1369,
+      "mtimeMs": 1788434570274.1714,
+      "updatedAt": "2026-09-03T11:22:50.281Z",
+      "source": "scan"
+    },
+    ".claude/commands/opsx/apply.md": {
+      "description": "Implementing: <change-name> (schema: <schema-name>)",
+      "tokens": 2006,
+      "hash": "6e6c33442d74aca4",
+      "size": 8039,
+      "mtimeMs": 1788434565386.8591,
+      "updatedAt": "2026-09-03T11:22:50.281Z",
+      "source": "scan"
+    },
+    ".claude/commands/opsx/archive.md": {
+      "description": "Archive Complete",
+      "tokens": 2867,
+      "hash": "ec3ebf753601ab11",
+      "size": 11491,
+      "mtimeMs": 1788434565387.3823,
+      "updatedAt": "2026-09-03T11:22:50.281Z",
+      "source": "scan"
+    },
+    ".claude/commands/opsx/explore.md": {
+      "description": "The Stance",
+      "tokens": 2962,
+      "hash": "386041eaffb09c1e",
+      "size": 12264,
+      "mtimeMs": 1788434565386.1536,
+      "updatedAt": "2026-09-03T11:22:50.281Z",
+      "source": "scan"
+    },
+    ".claude/commands/opsx/propose.md": {
+      "description": "",
+      "tokens": 2765,
+      "hash": "66945fbaf8187078",
+      "size": 11066,
+      "mtimeMs": 1788434565387.4968,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/commands/opsx/sync.md": {
+      "description": "Purpose",
+      "tokens": 3092,
+      "hash": "f2d9729161cd9f6f",
+      "size": 12377,
+      "mtimeMs": 1788434565387.2607,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/commands/opsx/update.md": {
+      "description": "/*.md`). Do NOT write to `resolvedOutputPath`: for a glob artifact it is still the glob pattern, not a real file.",
+      "tokens": 1666,
+      "hash": "8cc619740136c8ae",
+      "size": 6661,
+      "mtimeMs": 1788434565387.0852,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/commands/reframe.md": {
+      "description": "Mode: migrate [framework]",
+      "tokens": 551,
+      "hash": "17a75695be5d4629",
+      "size": 2221,
+      "mtimeMs": 1788434570274.1714,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/commands/security-audit.md": {
+      "description": "Layer 1 — Dependencies",
+      "tokens": 510,
+      "hash": "e6f7e0b7337c9c86",
+      "size": 2060,
+      "mtimeMs": 1788434570274.1714,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/rules/openwolf.md": {
+      "description": "",
+      "tokens": 251,
+      "hash": "0e6845e32d3752ea",
+      "size": 1003,
+      "mtimeMs": 1788434570269.1714,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/settings.json": {
+      "description": "",
+      "tokens": 665,
+      "hash": "c04e0c5229dda78d",
+      "size": 2327,
+      "mtimeMs": 1788434570268.1714,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/skills/openspec-apply-change/SKILL.md": {
+      "description": "Implementing: <change-name> (schema: <schema-name>)",
+      "tokens": 2041,
+      "hash": "be086ab29a9c0757",
+      "size": 8177,
+      "mtimeMs": 1788434565384.1536,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/skills/openspec-archive-change/SKILL.md": {
+      "description": "Archive Complete",
+      "tokens": 2661,
+      "hash": "93d5a0e0b22c4b5c",
+      "size": 10668,
+      "mtimeMs": 1788434565385.3735,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/skills/openspec-explore/SKILL.md": {
+      "description": "The Stance",
+      "tokens": 3683,
+      "hash": "d6f5c931c0233444",
+      "size": 16232,
+      "mtimeMs": 1788434565383.1536,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/skills/openspec-propose/SKILL.md": {
+      "description": "",
+      "tokens": 2820,
+      "hash": "5daf4f9665c2a048",
+      "size": 11284,
+      "mtimeMs": 1788434565385.8096,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/skills/openspec-sync-specs/SKILL.md": {
+      "description": "Purpose",
+      "tokens": 3121,
+      "hash": "a345d72373c63336",
+      "size": 12496,
+      "mtimeMs": 1788434565385.0854,
+      "updatedAt": "2026-09-03T11:22:50.282Z",
+      "source": "scan"
+    },
+    ".claude/skills/openspec-update-change/SKILL.md": {
+      "description": "/*.md`). Do NOT write to `resolvedOutputPath`: for a glob artifact it is still the glob pattern, not a real file.",
+      "tokens": 1707,
+      "hash": "b8b1fbbc62f0d2ca",
+      "size": 6827,
+      "mtimeMs": 1788434565384.738,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/dependabot.yml": {
+      "description": "Keep dependencies up to date automatically.",
+      "tokens": 172,
+      "hash": "016322aca0517386",
+      "size": 599,
+      "mtimeMs": 1788434199733.925,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/ISSUE_TEMPLATE/bug-report.yaml": {
+      "description": "you may not use this file except in compliance with the License.",
+      "tokens": 615,
+      "hash": "92b7cf09cde3c073",
+      "size": 2152,
+      "mtimeMs": 1788434199733.87,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/ISSUE_TEMPLATE/config.yml": {
+      "description": "you may not use this file except in compliance with the License.",
+      "tokens": 234,
+      "hash": "0f2faa1dda362ed8",
+      "size": 817,
+      "mtimeMs": 1788434199733.925,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/ISSUE_TEMPLATE/feature-request.yaml": {
+      "description": "you may not use this file except in compliance with the License.",
+      "tokens": 520,
+      "hash": "e4538874ecf6bf6a",
+      "size": 1818,
+      "mtimeMs": 1788434199733.925,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/PULL_REQUEST_TEMPLATE.md": {
+      "description": "",
+      "tokens": 189,
+      "hash": "0ba20a5c1f63b8f2",
+      "size": 755,
+      "mtimeMs": 1788434199733.925,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/workflows/cmake.yml": {
+      "description": "CI: CMake",
+      "tokens": 1490,
+      "hash": "9c96a8f623d88fb3",
+      "size": 5214,
+      "mtimeMs": 1788434199733.925,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/workflows/project-checks.yml": {
+      "description": "CI: Project Checks",
+      "tokens": 654,
+      "hash": "6673b71be2b1fcf0",
+      "size": 2294,
+      "mtimeMs": 1788434199734.1326,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/workflows/release/build.sh": {
+      "description": "you may not use this file except in compliance with the License.",
+      "tokens": 1739,
+      "hash": "14afffcdc4d9945e",
+      "size": 6084,
+      "mtimeMs": 1788434199734.2566,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/workflows/release/Dockerfile": {
+      "description": "Docker container definition",
+      "tokens": 254,
+      "hash": "6d17f7db8db59be4",
+      "size": 950,
+      "mtimeMs": 1788434199734.1326,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".github/workflows/release.yml": {
+      "description": "CI: Release",
+      "tokens": 1444,
+      "hash": "b25f124e07ebc016",
+      "size": 5051,
+      "mtimeMs": 1788434199734.1326,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 12,
+      "hash": "5ecbcbf1d08c994b",
+      "size": 44,
+      "mtimeMs": 1788434199734.2566,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    ".gitmodules": {
+      "description": "",
+      "tokens": 112,
+      "hash": "3a0a3862a749009b",
+      "size": 417,
+      "mtimeMs": 1788434199734.2566,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "baselayers/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 84,
+      "hash": "cc22a0117a5248b4",
+      "size": 335,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CLAUDE.md": {
+      "description": "OpenWolf",
+      "tokens": 34,
+      "hash": "3d9051d26bf6d530",
+      "size": 134,
+      "mtimeMs": 1788434570269.1714,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CMake/Findaio.cmake": {
+      "description": "",
+      "tokens": 64,
+      "hash": "0603a2c56eae3a18",
+      "size": 238,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CMake/FindCURL.cmake": {
+      "description": "",
+      "tokens": 742,
+      "hash": "2c0c7af6618622a6",
+      "size": 2780,
+      "mtimeMs": 1788434199734.2566,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CMake/Finde2fs.cmake": {
+      "description": "",
+      "tokens": 615,
+      "hash": "ee8239e51e0984b1",
+      "size": 2306,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CMake/FindOpenSSL.cmake": {
+      "description": "",
+      "tokens": 707,
+      "hash": "3a9f81b8af8136cd",
+      "size": 2648,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CMake/Findphoton.cmake": {
+      "description": "",
+      "tokens": 210,
+      "hash": "18286f00361d402d",
+      "size": 784,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CMake/FindRapidJSON.cmake": {
+      "description": "",
+      "tokens": 143,
+      "hash": "d16c9af4fe50a20f",
+      "size": 534,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CMake/Findtcmu.cmake": {
+      "description": "",
+      "tokens": 107,
+      "hash": "31058373eff35794",
+      "size": 399,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.283Z",
+      "source": "scan"
+    },
+    "CMake/pack.cmake": {
+      "description": "",
+      "tokens": 232,
+      "hash": "7cb8977d3ae29244",
+      "size": 870,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 766,
+      "hash": "63e899241dd9bb7c",
+      "size": 3061,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "CONTRIBUTING.md": {
+      "description": "Contributing",
+      "tokens": 670,
+      "hash": "e69cee53dcc04505",
+      "size": 2678,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/.nojekyll": {
+      "description": "",
+      "tokens": 0,
+      "hash": "e3b0c44298fc1c14",
+      "size": 0,
+      "mtimeMs": 1788434199734.9487,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/cache.md": {
+      "description": "Overlaybd File Cache",
+      "tokens": 631,
+      "hash": "991ea85ed6dac4b7",
+      "size": 2524,
+      "mtimeMs": 1788434199739.815,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/ctimg.md": {
+      "description": "Why Containers and Secure Containers Should Use Overlaybd Images",
+      "tokens": 4042,
+      "hash": "3cade23e93a25814",
+      "size": 16239,
+      "mtimeMs": 1788434199739.815,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/dadi-aliyun-2020-en.md": {
+      "description": "Launching 10,000 Containers in Seconds: Inside Alibaba Cloud's Container Image Acceleration",
+      "tokens": 972,
+      "hash": "69b8ac43c671fe96",
+      "size": 3897,
+      "mtimeMs": 1788434199739.815,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/dadi-aliyun-2020.md": {
+      "description": "秒级启动万个容器，探秘阿里云容器镜像加速黑科技",
+      "tokens": 373,
+      "hash": "b88e68462bdadef0",
+      "size": 3193,
+      "mtimeMs": 1788434199739.815,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/index.html": {
+      "description": "Overlay Block Device",
+      "tokens": 923,
+      "hash": "acce26006779f98e",
+      "size": 3462,
+      "mtimeMs": 1788434199739.815,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/lsmt_lookup.md": {
+      "description": "Lookup Algorithm in LSMT",
+      "tokens": 210,
+      "hash": "02f49e5912ee352c",
+      "size": 837,
+      "mtimeMs": 1788434199739.815,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/README.md": {
+      "description": "Project documentation",
+      "tokens": 5567,
+      "hash": "c662a419f4540221",
+      "size": 22326,
+      "mtimeMs": 1788434199735.173,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/sbimg.md": {
+      "description": "Why Agent Sandboxes Should Use Overlaybd Images",
+      "tokens": 4168,
+      "hash": "cd3548b53b724c89",
+      "size": 16733,
+      "mtimeMs": 1788434199739.815,
+      "updatedAt": "2026-09-03T11:22:50.284Z",
+      "source": "scan"
+    },
+    "docs/vmimg.md": {
+      "description": "Why Virtual Machines Should Use Overlaybd Images",
+      "tokens": 3611,
+      "hash": "6f62e7b306076c91",
+      "size": 14519,
+      "mtimeMs": 1788434199741.3745,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "GEMINI.md": {
+      "description": "OpenWolf",
+      "tokens": 75,
+      "hash": "e401f79554a8d796",
+      "size": 297,
+      "mtimeMs": 1788434570273.1714,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "LICENSE": {
+      "description": "Project license",
+      "tokens": 3029,
+      "hash": "43070e2d4e532684",
+      "size": 11356,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "MAINTAINERS": {
+      "description": "overlaybd maintainers",
+      "tokens": 168,
+      "hash": "a05a9a67b71896c4",
+      "size": 628,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "openspec/config.yaml": {
+      "description": "",
+      "tokens": 264,
+      "hash": "2a791b0ccc50e2c2",
+      "size": 922,
+      "mtimeMs": 1788434565387.4968,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 5919,
+      "hash": "22378b4a211008de",
+      "size": 23677,
+      "mtimeMs": 1788434199734.4292,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/api_server.cpp": {
+      "description": "Declares ApiHandler",
+      "tokens": 1754,
+      "hash": "46c8c70f6ee999bd",
+      "size": 6139,
+      "mtimeMs": 1788434199741.5015,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/api_server.h": {
+      "description": "Declares std",
+      "tokens": 215,
+      "hash": "9193ddbbcf16dfdb",
+      "size": 750,
+      "mtimeMs": 1788434199741.5015,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/bk_download.cpp": {
+      "description": "Declares std",
+      "tokens": 2242,
+      "hash": "f854d05845e0111b",
+      "size": 7847,
+      "mtimeMs": 1788434199741.5015,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/bk_download.h": {
+      "description": "Declares ImageFile",
+      "tokens": 570,
+      "hash": "5275bf9e76c12dfe",
+      "size": 1995,
+      "mtimeMs": 1788434199741.5015,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 512,
+      "hash": "ed468390e7b25994",
+      "size": 2046,
+      "mtimeMs": 1788434199741.3745,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/config.h": {
+      "description": "Declares int",
+      "tokens": 1623,
+      "hash": "113411c23589199f",
+      "size": 5680,
+      "mtimeMs": 1788434199741.5015,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/example_config/cred.json": {
+      "description": "",
+      "tokens": 38,
+      "hash": "ab68772103c5e4ae",
+      "size": 133,
+      "mtimeMs": 1788434199741.5015,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/example_config/overlaybd-registryv2.json": {
+      "description": "",
+      "tokens": 192,
+      "hash": "648c841c1678f34c",
+      "size": 671,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/example_config/overlaybd-tcmu.service": {
+      "description": "",
+      "tokens": 114,
+      "hash": "a2608003a59ffe97",
+      "size": 425,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/example_config/overlaybd.json": {
+      "description": "",
+      "tokens": 299,
+      "hash": "2c4f54339d2ff96d",
+      "size": 1045,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/example_config/redis.obd.config.json": {
+      "description": "",
+      "tokens": 436,
+      "hash": "85e97c49e61ceeb1",
+      "size": 1525,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/example_config/stream-conv.yaml": {
+      "description": "",
+      "tokens": 77,
+      "hash": "5bb35d8759b3c7c3",
+      "size": 269,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/exporter_handler.h": {
+      "description": "Declares char",
+      "tokens": 1180,
+      "hash": "ebf8f99d6032df6e",
+      "size": 4130,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/exporter_server.h": {
+      "description": "Declares OverlayBDMetric",
+      "tokens": 744,
+      "hash": "642d26582c04b6fe",
+      "size": 2602,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.285Z",
+      "source": "scan"
+    },
+    "src/image_file.cpp": {
+      "description": "Declares std",
+      "tokens": 6815,
+      "hash": "9b61589103170561",
+      "size": 23850,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/image_file.h": {
+      "description": "Declares ImageFile",
+      "tokens": 1460,
+      "hash": "6e162278c330880c",
+      "size": 5108,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/image_service.cpp": {
+      "description": "Declares char",
+      "tokens": 7393,
+      "hash": "7086871500420f8f",
+      "size": 25875,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/image_service.h": {
+      "description": "Declares ImageService",
+      "tokens": 779,
+      "hash": "8877ca6dd06cc0c2",
+      "size": 2724,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/main.cpp": {
+      "description": "Declares TCMUDevLoop",
+      "tokens": 4562,
+      "hash": "f8e0b46c9037a16b",
+      "size": 15965,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/metrics_fs.h": {
+      "description": "Declares MetricFile",
+      "tokens": 841,
+      "hash": "b1851b0255ba89b6",
+      "size": 2941,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/base64.h": {
+      "description": "pragma once",
+      "tokens": 883,
+      "hash": "dbf5aa458930931c",
+      "size": 3089,
+      "mtimeMs": 1788434199742.2593,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/cache.cpp": {
+      "description": "",
+      "tokens": 1211,
+      "hash": "659115b034e3be01",
+      "size": 4236,
+      "mtimeMs": 1788434199742.335,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/cache.h": {
+      "description": "Declares int",
+      "tokens": 1530,
+      "hash": "3f4a39417f88bcde",
+      "size": 5355,
+      "mtimeMs": 1788434199742.335,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/cached_fs.cpp": {
+      "description": "Declares uint64_t",
+      "tokens": 4306,
+      "hash": "89451c045f95fe8f",
+      "size": 15068,
+      "mtimeMs": 1788434199742.335,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 115,
+      "hash": "5e210b58215bc758",
+      "size": 458,
+      "mtimeMs": 1788434199742.2593,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/download_cache/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 45,
+      "hash": "81d40defbc8b20bd",
+      "size": 179,
+      "mtimeMs": 1788434199742.335,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/download_cache/download_cache.cpp": {
+      "description": "Declares DownloadCacheFs",
+      "tokens": 3757,
+      "hash": "ae862d721f0f7173",
+      "size": 13148,
+      "mtimeMs": 1788434199742.5278,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/forwardcfs.h": {
+      "description": "Declares IForwardCachedFile",
+      "tokens": 657,
+      "hash": "8153581c118ec2bf",
+      "size": 2299,
+      "mtimeMs": 1788434199742.5278,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/full_file_cache/cache_pool.cpp": {
+      "description": "Declares uint64_t",
+      "tokens": 2821,
+      "hash": "aaa44f87542a3791",
+      "size": 9872,
+      "mtimeMs": 1788434199742.6543,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/full_file_cache/cache_pool.h": {
+      "description": "Declares FileCachePool",
+      "tokens": 1048,
+      "hash": "486c5669507ce5fc",
+      "size": 3668,
+      "mtimeMs": 1788434199742.6543,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/full_file_cache/cache_store.cpp": {
+      "description": "Declares uint64_t",
+      "tokens": 2057,
+      "hash": "48d240f3b7e91aa3",
+      "size": 7197,
+      "mtimeMs": 1788434199742.6543,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/full_file_cache/cache_store.h": {
+      "description": "Declares FileCachePool",
+      "tokens": 716,
+      "hash": "e595423578b45f70",
+      "size": 2503,
+      "mtimeMs": 1788434199742.6543,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/full_file_cache/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 46,
+      "hash": "baf6187af227460a",
+      "size": 181,
+      "mtimeMs": 1788434199742.5278,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/gzip_cache/cached_fs.cpp": {
+      "description": "Declares GzipCachedFsImpl",
+      "tokens": 830,
+      "hash": "c99d713f2b34b3c9",
+      "size": 2905,
+      "mtimeMs": 1788434199742.8962,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/gzip_cache/cached_fs.h": {
+      "description": "Declares GzipCachedFs",
+      "tokens": 326,
+      "hash": "6a1c13539310ef23",
+      "size": 1140,
+      "mtimeMs": 1788434199742.8962,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/gzip_cache/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 53,
+      "hash": "1e9710cd5754d24e",
+      "size": 210,
+      "mtimeMs": 1788434199742.6543,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 203,
+      "hash": "18308235ed98da1a",
+      "size": 811,
+      "mtimeMs": 1788434199742.8962,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/ctx.cpp": {
+      "description": "include \"ctx.h\"",
+      "tokens": 2344,
+      "hash": "74990847be88b366",
+      "size": 8202,
+      "mtimeMs": 1788434199743.049,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/ctx.h": {
+      "description": "pragma once",
+      "tokens": 510,
+      "hash": "694fa4df8c41d567",
+      "size": 1784,
+      "mtimeMs": 1788434199743.109,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/env/ocf_env_headers.h": {
+      "description": "ifndef __OCF_ENV_HEADERS_H__",
+      "tokens": 117,
+      "hash": "4552d40b1711b528",
+      "size": 407,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/env/ocf_env_list.h": {
+      "description": "List entry structure mimicking linux kernel based one.",
+      "tokens": 1270,
+      "hash": "a5c89daf94cf62ae",
+      "size": 4442,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.286Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/env/ocf_env.cpp": {
+      "description": "include <photon/thread/thread.h>",
+      "tokens": 2240,
+      "hash": "a9cd85b9af8397b8",
+      "size": 7837,
+      "mtimeMs": 1788434199743.109,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/env/ocf_env.h": {
+      "description": "ifndef __OCF_ENV_H__",
+      "tokens": 3206,
+      "hash": "a93718e4f393a3e3",
+      "size": 11220,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/env/utils_mpool.cpp": {
+      "description": "ifdef __cplusplus",
+      "tokens": 878,
+      "hash": "dc877d361199919c",
+      "size": 3070,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/env/utils_mpool.h": {
+      "description": "ifndef UTILS_MPOOL_H_",
+      "tokens": 621,
+      "hash": "649f26c13439c1ae",
+      "size": 2173,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/provider.cpp": {
+      "description": "include \"provider.h\"",
+      "tokens": 3018,
+      "hash": "2b36898cba6cb172",
+      "size": 10561,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/provider.h": {
+      "description": "pragma once",
+      "tokens": 717,
+      "hash": "7e0b7ea095e1ba93",
+      "size": 2509,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/queue.cpp": {
+      "description": "include \"queue.h\"",
+      "tokens": 534,
+      "hash": "54dda6f7cf73f71d",
+      "size": 1869,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/queue.h": {
+      "description": "pragma once",
+      "tokens": 44,
+      "hash": "7b7800ddac77313a",
+      "size": 153,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/volume.cpp": {
+      "description": "include \"volume.h\"",
+      "tokens": 2026,
+      "hash": "14f1346d085dc1bf",
+      "size": 7089,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ease_bindings/volume.h": {
+      "description": "pragma once",
+      "tokens": 96,
+      "hash": "30a1117ec5b74b3b",
+      "size": 335,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ocf_cache.cpp": {
+      "description": "include <sys/stat.h>",
+      "tokens": 2973,
+      "hash": "516870d21847bcd1",
+      "size": 10405,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ocf_namespace.cpp": {
+      "description": "include \"ocf_namespace.h\"",
+      "tokens": 1707,
+      "hash": "f70753c3e4ff2bdf",
+      "size": 5974,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/ocf_namespace.h": {
+      "description": "pragma once",
+      "tokens": 330,
+      "hash": "dc25693f307f156a",
+      "size": 1152,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/test/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 127,
+      "hash": "7a8db46c79485372",
+      "size": 508,
+      "mtimeMs": 1788434199743.194,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/test/flags.conf": {
+      "description": "multi_files_test=false",
+      "tokens": 79,
+      "hash": "17f05de22e7f7825",
+      "size": 295,
+      "mtimeMs": 1788434199743.7935,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/ocf_cache/test/ocf_perf_test.cpp": {
+      "description": "include <fcntl.h>",
+      "tokens": 5090,
+      "hash": "4a13a2870607874a",
+      "size": 17813,
+      "mtimeMs": 1788434199743.7935,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/policy/lru.h": {
+      "description": "Declares LRU",
+      "tokens": 1346,
+      "hash": "73ee13e8663fcc15",
+      "size": 4709,
+      "mtimeMs": 1788434199743.7935,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/pool_store.h": {
+      "description": "Declares ListType",
+      "tokens": 2819,
+      "hash": "30428a2fae1a35cb",
+      "size": 9866,
+      "mtimeMs": 1788434199743.7935,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/store.cpp": {
+      "description": "Declares uint32_t",
+      "tokens": 4489,
+      "hash": "bdb8a913aee3148b",
+      "size": 15709,
+      "mtimeMs": 1788434199743.7935,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/test/cache_test.cpp": {
+      "description": "Declares std",
+      "tokens": 5352,
+      "hash": "bcbeea050bbd0a3f",
+      "size": 18729,
+      "mtimeMs": 1788434199744.1362,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/test/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 112,
+      "hash": "282c8e02d0646b76",
+      "size": 446,
+      "mtimeMs": 1788434199743.7935,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/cache/test/random_generator.h": {
+      "description": "Declares RandomValueGen",
+      "tokens": 480,
+      "hash": "470044ae28fb1a70",
+      "size": 1680,
+      "mtimeMs": 1788434199744.1362,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 142,
+      "hash": "e837d891fa784076",
+      "size": 566,
+      "mtimeMs": 1788434199741.7268,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/config_util.h": {
+      "description": "Declares struct",
+      "tokens": 1630,
+      "hash": "ac374a4a362895a9",
+      "size": 5705,
+      "mtimeMs": 1788434199744.1362,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzindex/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 62,
+      "hash": "5d7287e7ecb3e68f",
+      "size": 247,
+      "mtimeMs": 1788434199744.1362,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzindex/gzfile_index.h": {
+      "description": "Declares IndexFilterRecorder",
+      "tokens": 912,
+      "hash": "7262fc8b633d0ee4",
+      "size": 3189,
+      "mtimeMs": 1788434199744.3438,
+      "updatedAt": "2026-09-03T11:22:50.287Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzindex/gzfile.cpp": {
+      "description": "Declares GzFile",
+      "tokens": 3781,
+      "hash": "471ea0d206cba693",
+      "size": 13232,
+      "mtimeMs": 1788434199744.3438,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzindex/gzfile.h": {
+      "description": "Declares char",
+      "tokens": 368,
+      "hash": "6fb67a0769021974",
+      "size": 1286,
+      "mtimeMs": 1788434199744.3438,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzindex/gzip_index_create.cpp": {
+      "description": "Declares IndexFileHeader",
+      "tokens": 3824,
+      "hash": "274f550432342042",
+      "size": 13382,
+      "mtimeMs": 1788434199744.3438,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzindex/test/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 123,
+      "hash": "d8a24768bde2f63b",
+      "size": 490,
+      "mtimeMs": 1788434199744.3438,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzindex/test/test.cpp": {
+      "description": "Declares GzIndexTest",
+      "tokens": 6327,
+      "hash": "6ff49f843d48c9ea",
+      "size": 22142,
+      "mtimeMs": 1788434199744.5894,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzip/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 66,
+      "hash": "49c0449d646feea4",
+      "size": 264,
+      "mtimeMs": 1788434199744.5894,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzip/gz.cpp": {
+      "description": "Declares GzAdaptorFile",
+      "tokens": 2961,
+      "hash": "6d1c024443816644",
+      "size": 10363,
+      "mtimeMs": 1788434199744.6956,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/gzip/gz.h": {
+      "description": "Declares IGzFile",
+      "tokens": 325,
+      "hash": "0f29891c94c4ec9c",
+      "size": 1135,
+      "mtimeMs": 1788434199744.6956,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/lsmt/CMakeLists.txt": {
+      "description": "Declares uint32_t",
+      "tokens": 452,
+      "hash": "841448909867021d",
+      "size": 1807,
+      "mtimeMs": 1788497340527.5945,
+      "updatedAt": "2026-09-04T04:49:00.616Z",
+      "source": "hook"
+    },
+    "src/overlaybd/lsmt/file.cpp": {
+      "description": "Declares SegmentMapping",
+      "tokens": 20108,
+      "hash": "8c5de0dddadee306",
+      "size": 70377,
+      "mtimeMs": 1788434199744.9438,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/lsmt/file.h": {
+      "description": "Declares int",
+      "tokens": 2149,
+      "hash": "3ae0e7a2be0638ed",
+      "size": 7520,
+      "mtimeMs": 1788434199744.9438,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/lsmt/format_spec.md": {
+      "description": "Overlaybd read-only layer blob format",
+      "tokens": 1393,
+      "hash": "ef2f86583846091b",
+      "size": 5572,
+      "mtimeMs": 1788434199744.9438,
+      "updatedAt": "2026-09-03T11:22:50.288Z",
+      "source": "scan"
+    },
+    "src/overlaybd/lsmt/index.cpp": {
+      "description": "Declares Segment",
+      "tokens": 11690,
+      "hash": "d48c59c448c74c72",
+      "size": 43836,
+      "mtimeMs": 1788493606136.6243,
+      "updatedAt": "2026-09-04T03:46:46.210Z",
+      "source": "hook"
+    },
+    "src/overlaybd/lsmt/index.h": {
+      "description": "Declares uint64_t",
+      "tokens": 2374,
+      "hash": "2d736bea0591a6de",
+      "size": 8901,
+      "mtimeMs": 1788493616838.9749,
+      "updatedAt": "2026-09-04T03:46:56.928Z",
+      "source": "hook"
+    },
+    "src/overlaybd/lsmt/test/CMakeLists.txt": {
+      "description": "",
+      "tokens": 115,
+      "hash": "79797769d4636734",
+      "size": 459,
+      "mtimeMs": 1788493712049.5527,
+      "updatedAt": "2026-09-04T03:48:32.122Z",
+      "source": "hook"
+    },
+    "src/overlaybd/lsmt/test/lsmt-filetest.h": {
+      "description": "Declares static",
+      "tokens": 5962,
+      "hash": "098368d21f244586",
+      "size": 20867,
+      "mtimeMs": 1788434199745.279,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/lsmt/test/test.cpp": {
+      "description": "Declares SegmentMapping",
+      "tokens": 11582,
+      "hash": "3d595ce1c3f8adeb",
+      "size": 40562,
+      "mtimeMs": 1788434199745.279,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/registryfs/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 64,
+      "hash": "b87ea6fb8356d572",
+      "size": 255,
+      "mtimeMs": 1788434199745.279,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/registryfs/registryfs_v2.cpp": {
+      "description": "Declares estring",
+      "tokens": 9382,
+      "hash": "e16ae51f27eda651",
+      "size": 32837,
+      "mtimeMs": 1788434199745.374,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/registryfs/registryfs.cpp": {
+      "description": "Declares estring",
+      "tokens": 5926,
+      "hash": "2f8198f06be1668f",
+      "size": 20740,
+      "mtimeMs": 1788434199745.374,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/registryfs/registryfs.h": {
+      "description": "Declares RegistryFS",
+      "tokens": 696,
+      "hash": "e317efe1ea882486",
+      "size": 2433,
+      "mtimeMs": 1788434199745.374,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/stream_convertor/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 93,
+      "hash": "4688e21f74da0760",
+      "size": 372,
+      "mtimeMs": 1788434199745.374,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/stream_convertor/config_utils.h": {
+      "description": "pragma once",
+      "tokens": 671,
+      "hash": "4dec5736d34231ba",
+      "size": 2348,
+      "mtimeMs": 1788434199745.5105,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/stream_convertor/config.h": {
+      "description": "",
+      "tokens": 442,
+      "hash": "0453d518704bdad5",
+      "size": 1547,
+      "mtimeMs": 1788434199745.5105,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/stream_convertor/stream_conv.cpp": {
+      "description": "include <fcntl.h>",
+      "tokens": 2542,
+      "hash": "05b62a92add198f5",
+      "size": 8895,
+      "mtimeMs": 1788434199745.5105,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 67,
+      "hash": "fe137f7145d55a4f",
+      "size": 268,
+      "mtimeMs": 1788434199745.5105,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 327,
+      "hash": "1d8f9ff369abf286",
+      "size": 1307,
+      "mtimeMs": 1788434199745.5862,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/erofs_common.cpp": {
+      "description": "Declares for",
+      "tokens": 2821,
+      "hash": "01e66f5347c4aa23",
+      "size": 9871,
+      "mtimeMs": 1788434199745.6072,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/erofs_common.h": {
+      "description": "Declares cls",
+      "tokens": 996,
+      "hash": "9cd5e7508dc0a75f",
+      "size": 3486,
+      "mtimeMs": 1788434199745.6072,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/erofs_fs.cpp": {
+      "description": "Declares char",
+      "tokens": 4951,
+      "hash": "6714937c86b1d32f",
+      "size": 17326,
+      "mtimeMs": 1788434199745.6072,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/erofs_fs.h": {
+      "description": "Declares ErofsFileSystem",
+      "tokens": 970,
+      "hash": "30edfbfedb3d77a4",
+      "size": 3394,
+      "mtimeMs": 1788434199745.6072,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/liberofs.cpp": {
+      "description": "include \"erofs_common.h\"",
+      "tokens": 2437,
+      "hash": "8b30b0f287d050b8",
+      "size": 8529,
+      "mtimeMs": 1788434199745.6072,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/liberofs.h": {
+      "description": "ifndef TAREROFS_INTERFACE_H",
+      "tokens": 143,
+      "hash": "cb66af7084196d0c",
+      "size": 499,
+      "mtimeMs": 1788434199745.6072,
+      "updatedAt": "2026-09-03T11:22:50.289Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/test/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 298,
+      "hash": "163580e3df9c7668",
+      "size": 1192,
+      "mtimeMs": 1788434199745.6072,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/test/erofs_simple.cpp": {
+      "description": "Declares ErofsTest",
+      "tokens": 16772,
+      "hash": "f7f7216c23d855ab",
+      "size": 58890,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/test/erofs_stress_base.cpp": {
+      "description": "Declares char",
+      "tokens": 4702,
+      "hash": "ba1aa876964ab056",
+      "size": 16457,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/test/erofs_stress_base.h": {
+      "description": "Declares NODE_TYPE",
+      "tokens": 2609,
+      "hash": "d00baebc98c377bd",
+      "size": 9129,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/erofs/test/erofs_stress.cpp": {
+      "description": "func: xattr, xattr",
+      "tokens": 11272,
+      "hash": "49b4c1e3496731b4",
+      "size": 39449,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/header.cpp": {
+      "description": "include \"libtar.h\"",
+      "tokens": 3617,
+      "hash": "0e74e7e77647b7bb",
+      "size": 12662,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/libtar.cpp": {
+      "description": "include \"libtar.h\"",
+      "tokens": 3270,
+      "hash": "84214414f6ab2182",
+      "size": 11442,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/libtar.h": {
+      "description": "pragma once",
+      "tokens": 2335,
+      "hash": "a96240080b8a6c85",
+      "size": 8172,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/tar_file.cpp": {
+      "description": "Declares char",
+      "tokens": 3402,
+      "hash": "773c5660ed5f069b",
+      "size": 11905,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/tar_file.h": {
+      "description": "",
+      "tokens": 290,
+      "hash": "c6cab66a292b73d3",
+      "size": 1015,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/test/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 119,
+      "hash": "b4b678add7c5a158",
+      "size": 473,
+      "mtimeMs": 1788434199745.8298,
+      "updatedAt": "2026-09-03T11:22:50.290Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/test/test.cpp": {
+      "description": "Declares TarTest",
+      "tokens": 4469,
+      "hash": "41e05c8972176469",
+      "size": 15640,
+      "mtimeMs": 1788434199746.268,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/tar/whiteout.cpp": {
+      "description": "include \"libtar.h\"",
+      "tokens": 963,
+      "hash": "a300f8a8897c6ef0",
+      "size": 3370,
+      "mtimeMs": 1788434199746.268,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 653,
+      "hash": "fd476708663eb84f",
+      "size": 2611,
+      "mtimeMs": 1788434199746.268,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/compressor.cpp": {
+      "description": "Declares BaseCompressor",
+      "tokens": 4014,
+      "hash": "6fbe9d1a7a758689",
+      "size": 14049,
+      "mtimeMs": 1788434199746.42,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/compressor.h": {
+      "description": "Declares IFile",
+      "tokens": 978,
+      "hash": "781521d930efd89c",
+      "size": 3422,
+      "mtimeMs": 1788434199746.42,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/crc32/crc32c.cpp": {
+      "description": "*************************************************************",
+      "tokens": 12374,
+      "hash": "6e181d693fe74b87",
+      "size": 43308,
+      "mtimeMs": 1788434199746.42,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/crc32/crc32c.h": {
+      "description": "Declares void",
+      "tokens": 326,
+      "hash": "5d26fb1a71015df9",
+      "size": 1140,
+      "mtimeMs": 1788434199746.689,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/format_spec.md": {
+      "description": "ZFile format",
+      "tokens": 904,
+      "hash": "b6d34d3ff32a9ba3",
+      "size": 3614,
+      "mtimeMs": 1788434199746.689,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/lz4/lz4-qat.cpp": {
+      "description": "include \"lz4-qat.h\"",
+      "tokens": 4591,
+      "hash": "6bcabba28aedaacd",
+      "size": 16072,
+      "mtimeMs": 1788434199746.689,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/lz4/lz4-qat.h": {
+      "description": "ifndef ZFILE_LZ4_QAT_H",
+      "tokens": 528,
+      "hash": "ab2b3f92165b7a1f",
+      "size": 1849,
+      "mtimeMs": 1788434199746.7769,
+      "updatedAt": "2026-09-03T11:22:50.291Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/lz4/lz4.c": {
+      "description": "Declares union",
+      "tokens": 25101,
+      "hash": "b8823363b4b7978f",
+      "size": 87852,
+      "mtimeMs": 1788434199746.7769,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/lz4/lz4.h": {
+      "description": "Introduction",
+      "tokens": 9103,
+      "hash": "5e089240007e9675",
+      "size": 31860,
+      "mtimeMs": 1788434199746.7769,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/lz4/test.c": {
+      "description": "include \"lz4.h\" // This is all that is required to expose the prototypes for basic compression and decompression.",
+      "tokens": 1610,
+      "hash": "c92b976d54d2d6a5",
+      "size": 5634,
+      "mtimeMs": 1788434199746.7769,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/README.md": {
+      "description": "Project documentation",
+      "tokens": 994,
+      "hash": "833cd0788687d9e6",
+      "size": 3985,
+      "mtimeMs": 1788434199746.42,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/test/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 111,
+      "hash": "80087722c5b7b15e",
+      "size": 443,
+      "mtimeMs": 1788434199746.7769,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/test/test.cpp": {
+      "description": "Declares ZFileTest",
+      "tokens": 3722,
+      "hash": "b19a3b281f0522ab",
+      "size": 13024,
+      "mtimeMs": 1788434199747.0095,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/thirdparty/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 319,
+      "hash": "0827012f3f3700d7",
+      "size": 1276,
+      "mtimeMs": 1788434199747.0095,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/zfile.cpp": {
+      "description": "Declares static",
+      "tokens": 15710,
+      "hash": "8c0aa65fee2e8961",
+      "size": 54984,
+      "mtimeMs": 1788434199747.0605,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zfile/zfile.h": {
+      "description": "Declares static",
+      "tokens": 454,
+      "hash": "f7d52a23a5df8c62",
+      "size": 1587,
+      "mtimeMs": 1788434199747.0605,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zstd/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 52,
+      "hash": "73bbf1c9ee9ebc09",
+      "size": 206,
+      "mtimeMs": 1788434199747.0605,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zstd/zstdfile.cpp": {
+      "description": "Declares ZStdAdaptorFile",
+      "tokens": 1056,
+      "hash": "f391d8669b726f36",
+      "size": 3695,
+      "mtimeMs": 1788434199747.1753,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/overlaybd/zstd/zstdfile.h": {
+      "description": "",
+      "tokens": 264,
+      "hash": "51760ee374b42348",
+      "size": 922,
+      "mtimeMs": 1788434199747.1753,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/prefetch.cpp": {
+      "description": "Declares PrefetcherImpl",
+      "tokens": 5682,
+      "hash": "815b0a0380f0dbc9",
+      "size": 19885,
+      "mtimeMs": 1788434199747.1753,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/prefetch.h": {
+      "description": "Declares Prefetcher",
+      "tokens": 862,
+      "hash": "5c0c2aa70a26121a",
+      "size": 3014,
+      "mtimeMs": 1788434199747.1753,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/switch_file.cpp": {
+      "description": "Declares char",
+      "tokens": 1787,
+      "hash": "bb2b1fa6dc0869c8",
+      "size": 6253,
+      "mtimeMs": 1788434199747.1753,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/switch_file.h": {
+      "description": "Declares ISwitchFile",
+      "tokens": 309,
+      "hash": "20f7644a98fbce2c",
+      "size": 1081,
+      "mtimeMs": 1788434199747.1753,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/test/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 533,
+      "hash": "a61427d69e4f93b7",
+      "size": 2130,
+      "mtimeMs": 1788434199747.1753,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/test/image_service_test.cpp": {
+      "description": "Declares DevIDGetTest",
+      "tokens": 5338,
+      "hash": "eb573b642e15a159",
+      "size": 18680,
+      "mtimeMs": 1788434199747.3564,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/test/resize_test.cpp": {
+      "description": "Declares char",
+      "tokens": 3142,
+      "hash": "7d39302a83448ab1",
+      "size": 10996,
+      "mtimeMs": 1788434199747.3564,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/test/simple_credsrv_test.cpp": {
+      "description": "include <gtest/gtest.h>",
+      "tokens": 1227,
+      "hash": "ca2e7ca43efd9f6e",
+      "size": 4294,
+      "mtimeMs": 1788434199747.3564,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/test/trace_test.cpp": {
+      "description": "include <fcntl.h>",
+      "tokens": 2485,
+      "hash": "f45a1ac4d8710e7c",
+      "size": 8696,
+      "mtimeMs": 1788434199747.3564,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/textexporter.h": {
+      "description": "Declares auto",
+      "tokens": 1806,
+      "hash": "1bcb83d63fd290c6",
+      "size": 6321,
+      "mtimeMs": 1788434199747.3564,
+      "updatedAt": "2026-09-03T11:22:50.292Z",
+      "source": "scan"
+    },
+    "src/tools/CLI11.hpp": {
+      "description": "detection of rtti",
+      "tokens": 95915,
+      "hash": "e0bd8d113ed526ca",
+      "size": 359678,
+      "mtimeMs": 1788434199747.3564,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/CMakeLists.txt": {
+      "description": "CMake build configuration",
+      "tokens": 599,
+      "hash": "5696d0f9e9573439",
+      "size": 2393,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/comm_func.cpp": {
+      "description": "Declares char",
+      "tokens": 1197,
+      "hash": "ae7d85b49e904a90",
+      "size": 4187,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/comm_func.h": {
+      "description": "Declares char",
+      "tokens": 562,
+      "hash": "7c1f89e5202d4c80",
+      "size": 1965,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/overlaybd-apply.cpp": {
+      "description": "Declares FIFOFile",
+      "tokens": 1990,
+      "hash": "f908c59df6340b31",
+      "size": 6964,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/overlaybd-commit.cpp": {
+      "description": "Declares char",
+      "tokens": 2553,
+      "hash": "bf2a2bd2d215fb09",
+      "size": 8934,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/overlaybd-create.cpp": {
+      "description": "Declares char",
+      "tokens": 1165,
+      "hash": "4a658e15c1ab2f0e",
+      "size": 4077,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/overlaybd-merge.cpp": {
+      "description": "Declares FIFOFile",
+      "tokens": 1725,
+      "hash": "cda03f5e5125bc1c",
+      "size": 6035,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/overlaybd-resize.cpp": {
+      "description": "Declares std",
+      "tokens": 1112,
+      "hash": "1e68de5e04f21080",
+      "size": 3892,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/overlaybd-zfile.cpp": {
+      "description": "Declares IStreamFile",
+      "tokens": 1884,
+      "hash": "434058cbb6f96029",
+      "size": 6594,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/qcow2converter.cpp": {
+      "description": "include <cstdio>",
+      "tokens": 11349,
+      "hash": "112b814a02edac4e",
+      "size": 39720,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/qcow2converter.h": {
+      "description": "pragma once",
+      "tokens": 144,
+      "hash": "1c4dfeb3467ce8bd",
+      "size": 502,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/sha256file.cpp": {
+      "description": "include <fcntl.h>",
+      "tokens": 966,
+      "hash": "af59fcfea054acd5",
+      "size": 3381,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/sha256file.h": {
+      "description": "include <photon/fs/localfs.h>",
+      "tokens": 100,
+      "hash": "06394fbd63b0457a",
+      "size": 350,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/tools/turboOCI-apply.cpp": {
+      "description": "Declares string",
+      "tokens": 1651,
+      "hash": "69cf1210913f35f1",
+      "size": 5778,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.293Z",
+      "source": "scan"
+    },
+    "src/version.h": {
+      "description": "pragma once",
+      "tokens": 41,
+      "hash": "5b216e936c66e971",
+      "size": 142,
+      "mtimeMs": 1788434199747.9365,
+      "updatedAt": "2026-09-03T11:22:50.294Z",
+      "source": "scan"
+    },
+    "openspec/changes/arm64-sve-lsmt-lookup/proposal.md": {
+      "description": "Proposal: arm64-sve-lsmt-lookup",
+      "tokens": 415,
+      "hash": "cbb21406576db0c7",
+      "size": 2712,
+      "mtimeMs": 1788490193343.1694,
+      "updatedAt": "2026-09-04T02:49:53.418Z",
+      "source": "hook"
+    },
+    "openspec/changes/arm64-sve-lsmt-lookup/specs/lsmt-arm64-lookup/spec.md": {
+      "description": "Delta spec: lsmt-arm64-lookup",
+      "tokens": 1117,
+      "hash": "b7231dd75ffb558f",
+      "size": 4470,
+      "mtimeMs": 1788490201617.2,
+      "updatedAt": "2026-09-04T02:50:01.705Z",
+      "source": "hook"
+    },
+    "openspec/changes/arm64-sve-lsmt-lookup/design.md": {
+      "description": "Design: arm64-sve-lsmt-lookup",
+      "tokens": 156,
+      "hash": "f29cfe02495ae38c",
+      "size": 795,
+      "mtimeMs": 1788490517267.3687,
+      "updatedAt": "2026-09-04T02:55:17.343Z",
+      "source": "hook"
+    },
+    "openspec/changes/arm64-sve-lsmt-lookup/tasks.md": {
+      "description": "Tasks: arm64-sve-lsmt-lookup",
+      "tokens": 434,
+      "hash": "e1c9fbc7558498e7",
+      "size": 2708,
+      "mtimeMs": 1788493795984.0005,
+      "updatedAt": "2026-09-04T03:49:56.055Z",
+      "source": "hook"
+    },
+    "src/overlaybd/lsmt/index_sve.cpp": {
+      "description": "SVE1 implementation of the LSMT B+tree inner search.",
+      "tokens": 176,
+      "hash": "6043a7fcc51dfdda",
+      "size": 659,
+      "mtimeMs": 1788493622162.7546,
+      "updatedAt": "2026-09-04T03:47:02.258Z",
+      "source": "hook"
+    }
+  },
+  "preamble": [
+    "> Project structure index. Auto-maintained by OpenWolf hooks and daemon.",
+    "> Run `openwolf scan` to generate, or wait for the first Claude Code session.",
+    "> Status: Pending initial scan"
+  ]
+}
