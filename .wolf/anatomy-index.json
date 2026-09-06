@@ -1,12 +1,12 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-09-04T04:49:00.616Z",
-    "fileCount": 221,
+    "lastScanned": "2026-09-05T16:01:53.896Z",
+    "fileCount": 222,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "bccae38f59eb76c0f598910531f230c898da2101c3fd1aae385f87f18b45bba4",
-    "storeUpdatedAt": "2026-09-04T04:49:00.622Z"
+    "renderedHash": "ebf9a4d5ae416a9748dc56ff8e0f77a73a729d5d78ab8552832e769d148d9b71",
+    "storeUpdatedAt": "2026-09-05T16:01:53.902Z"
   },
   "files": {
     ".clang-format": {
@@ -1996,6 +1996,15 @@
       "size": 659,
       "mtimeMs": 1788493622162.7546,
       "updatedAt": "2026-09-04T03:47:02.258Z",
+      "source": "hook"
+    },
+    "docs/lsmt_arm64_sve.md": {
+      "description": "让容器镜像学会按需读取：overlaybd 的 ARM64 查找优化",
+      "tokens": 2302,
+      "hash": "4b75e8bce2ec0aa0",
+      "size": 19083,
+      "mtimeMs": 1788624113859.135,
+      "updatedAt": "2026-09-05T16:01:53.895Z",
       "source": "hook"
     }
   },

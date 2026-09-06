@@ -25,3 +25,9 @@
 ## Decision Log
 
 <!-- Significant technical decisions with rationale. Why X was chosen over Y. -->
+
+## Do-Not-Repeat (added 2026-09-05)
+- **不要把大段 CJK+标记（SVG/HTML 图块）塞进单个 Edit new_string**：本会话两次产出损坏属性（divided-by-nothing、</h>2、<section-heading> 等）。规则：大图/大块插入用 cat >> heredoc 分块 + 立即跑垃圾 grep（section-heading|divided-by-nothing|text-anchor="key" 等）；修复时 sed 范围删除 + 短锚点重插，old_string 一律从 Read 输出精确复制，禁止凭记忆重建。md 版本允许 ASCII 图（代码围栏），HTML 才用 SVG。
+
+## User Preferences / Decisions (2026-09-05)
+- **ARM SIMD 阶梯决策：保留 NEON 档**。用户曾提议砍掉 NEON 镜像 x86 两档结构，经覆盖面分析（无 SVE 的在役 ARM 云主机 Graviton2/Altra 依赖 NEON 获得 u32 2.0x；NEON 维护成本趋零）后决定保留。论证已入 code 文档第 4 节与 design.md D5。后续勿再提删 NEON；同理勿建议给 x86 加 SSE2/AVX2 档（FAQ 已记录上游策略）。

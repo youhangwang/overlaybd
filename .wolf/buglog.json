@@ -48,6 +48,22 @@
       "related_bugs": [],
       "occurrences": 2,
       "last_seen": "2026-09-04T03:46:16.331Z"
+    },
+    {
+      "id": "edit-cjk-markup-corruption",
+      "timestamp": "2026-09-05T00:00:00+08:00",
+      "error_message": "Edit new_string with large CJK+SVG/HTML mixed content produced corrupted attributes (divided-by-nothing, text-anchor=key, </h>2, <section-heading>)",
+      "file": "/tmp/overlaybd-blog/index.html",
+      "root_cause": "single Edit new_string too large mixing CJK prose + markup; output tokens garble mid-stream",
+      "fix": "keep Edit new_string small; for big SVG/figure inserts use chunked cat >> heredoc + immediate garbage-grep; for repair use sed-range delete + anchored re-insert",
+      "tags": [
+        "edit",
+        "cjk",
+        "svg",
+        "corruption"
+      ],
+      "occurrences": 2,
+      "last_seen": "2026-09-05"
     }
   ]
 }

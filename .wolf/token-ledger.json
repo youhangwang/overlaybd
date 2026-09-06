@@ -2,19 +2,19 @@
   "version": 1,
   "created_at": "2026-09-03T11:22:50.267Z",
   "lifetime": {
-    "total_tokens_estimated": 14338,
-    "total_reads": 14,
-    "total_writes": 23,
-    "anatomy_hits": 10,
-    "anatomy_misses": 3,
+    "total_tokens_estimated": 20374,
+    "total_reads": 22,
+    "total_writes": 71,
+    "anatomy_hits": 14,
+    "anatomy_misses": 7,
     "repeated_reads_blocked": 0,
     "estimated_savings_vs_bare_cli": 0,
-    "real_input_tokens": 6031625,
-    "real_output_tokens": 550525,
-    "real_cache_read_tokens": 84518464,
+    "real_input_tokens": 9168395,
+    "real_output_tokens": 773786,
+    "real_cache_read_tokens": 114978368,
     "real_cache_creation_tokens": 0,
-    "real_api_calls": 583,
-    "total_sessions": 7
+    "real_api_calls": 769,
+    "total_sessions": 8
   },
   "sessions": [
     {
@@ -321,6 +321,321 @@
         "cache_read_input_tokens": 35992064,
         "cache_creation_input_tokens": 0,
         "api_calls": 213
+      }
+    },
+    {
+      "id": "session-2026-09-04-2201",
+      "agent": "claude",
+      "started": "2026-09-04T14:01:50.556Z",
+      "ended": "2026-09-06T02:39:03.529Z",
+      "reads": [
+        {
+          "file": "/private/tmp/claude-501/-Users-johan-youhwsh-overlaybd/6ff08257-cfb4-4564-aa03-abb4ff62bd82/tasks/bi7e7z0u5.output",
+          "tokens_estimated": 8,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/johan/.ssh/config",
+          "tokens_estimated": 15,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/private/tmp/claude-501/-Users-johan-youhwsh-overlaybd/6ff08257-cfb4-4564-aa03-abb4ff62bd82/tasks/b3yj93h2z.output",
+          "tokens_estimated": 29,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/proposal.md",
+          "tokens_estimated": 415,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/design.md",
+          "tokens_estimated": 928,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/openspec/changes/arm64-sve-lsmt-lookup/tasks.md",
+          "tokens_estimated": 434,
+          "was_repeated": false,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_lookup.md",
+          "tokens_estimated": 565,
+          "was_repeated": true,
+          "anatomy_had_description": true
+        },
+        {
+          "file": "/tmp/overlaybd-blog/index.html",
+          "tokens_estimated": 1136,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 71,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 11,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 9,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 52,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 72,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 52,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 12,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 42,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 35,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 61,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 28,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 44,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 11,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 20,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 55,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 35,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 60,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 52,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 32,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 59,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 33,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 31,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 18,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 73,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 16,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 2,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 4,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 4,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 6,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 5,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 13,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 20,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 13,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 24,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 401,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 4,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 4,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 6,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 5,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 13,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 7,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 304,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 49,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 45,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 249,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 210,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 80,
+          "action": "edit"
+        },
+        {
+          "file": "/Users/johan/youhwsh/overlaybd/docs/lsmt_arm64_sve.md",
+          "tokens_estimated": 54,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 3530,
+        "output_tokens_estimated": 2506,
+        "reads_count": 8,
+        "writes_count": 48,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 4,
+        "anatomy_misses": 4,
+        "savings_estimated": 0
+      },
+      "real_usage": {
+        "input_tokens": 3136770,
+        "output_tokens": 223261,
+        "cache_read_input_tokens": 30459904,
+        "cache_creation_input_tokens": 0,
+        "api_calls": 186
       }
     }
   ],

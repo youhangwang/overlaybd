@@ -45,7 +45,7 @@ HWCAP2_SVE2 仅用于档位识别与日志；NEON 为 aarch64 架构基线，免
 
 **D4 — 构建期特性探测，SVE TU 可选。** `check_cxx_compiler_flag(-march=armv8.2-a+sve)` + 探针编译（含 `<arm_sve.h>` 的最小 TU）双检；失败（如 devtoolset-7 的 gcc7）时跳过 SVE TU，NEON/标量路径照常，构建不失败。release build.sh（centos7 用 gcc7）不传任何新开关即自动降级。*备选*：要求 gcc≥10——拒绝，会破坏既有 release 矩阵。
 
-**D5 — NEON 版保留 u64 路径。** u64 NEON 仅 1.2x（2 lane/寄存器，归约开销大），仍快于标量且保持单一代码路径；正确性对拍零成本。*备选*：u64 回退标量——拒绝，收益为正、无复杂度代价。
+**D5 — NEON 版保留 u64 路径。** u64 NEON 仅 1.2x（2 lane/寄存器，归约开销大），仍快于标量且保持单一代码路径；正确性对拍零成本。*备选*：u64 回退标量——拒绝，收益为正、无复杂度代价。 补充论证（apply 期评审问题）：NEON 档整体不可删——无 SVE 的在役 ARM 云主机（Graviton2、Ampere Altra 等 Neoverse N1 一代）依赖它获得 u32 内核 2.0x，删后回落标量；NEON 无独立 TU/探针/flag，维护成本趋零。与 x86 不设 SSE2 档的不对称由此正当化：ARM 基线 SIMD 覆盖 100% 在役机器，x86 基线只面对已有优化标量路径的存量。
 
 **D6 — 正确性验证 = 对拍测试进树。** 在 `src/overlaybd/lsmt/test/` 增加测试：随机映射集 + 边界查询（首/末 key、key 间 gap、x 等于某 key、padded leaf），各实现结果与标量引用逐位比对；运行于 x86 CI（标量 vs AVX-512）与鲲鹏真机（全档位路径）。微基准 `/root/armbench/` 保持仓库外工具，不入树。
 

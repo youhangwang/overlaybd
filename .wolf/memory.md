@@ -71,3 +71,57 @@
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+
+## Session: 2026-09-04 22:01
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 23:50 | Edited docs/lsmt_arm64_sve.md | inline fix | ~67 |
+| 23:50 | Edited docs/lsmt_arm64_sve.md | inline fix | ~10 |
+| 23:51 | Edited docs/lsmt_arm64_sve.md | inline fix | ~8 |
+| 23:51 | Edited docs/lsmt_arm64_sve.md | inline fix | ~48 |
+| 23:51 | Edited docs/lsmt_arm64_sve.md | "内部查找" → "线性化" | ~67 |
+| 23:51 | Edited docs/lsmt_arm64_sve.md | inline fix | ~48 |
+| 23:51 | Edited docs/lsmt_arm64_sve.md | inline fix | ~12 |
+| 23:51 | Edited docs/lsmt_arm64_sve.md | 3→5 lines | ~39 |
+| 23:51 | Edited docs/lsmt_arm64_sve.md | inline fix | ~33 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | 2→2 lines | ~57 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | inline fix | ~26 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | "点餐前先问厨房有哪些锅" → "这台机器支持什么" | ~41 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | inline fix | ~11 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | inline fix | ~19 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | "好心" → "+sve2" | ~52 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | inline fix | ~32 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | inline fix | ~56 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | inline fix | ~48 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | inline fix | ~30 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | 2→2 lines | ~55 |
+| 23:52 | Edited docs/lsmt_arm64_sve.md | inline fix | ~31 |
+| 23:53 | Edited docs/lsmt_arm64_sve.md | inline fix | ~29 |
+| 23:53 | Edited docs/lsmt_arm64_sve.md | inline fix | ~17 |
+| 23:53 | Edited docs/lsmt_arm64_sve.md | 10→5 lines | ~68 |
+| 23:53 | Edited docs/lsmt_arm64_sve.md | inline fix | ~15 |
+| 23:53 | Edited docs/lsmt_arm64_sve.md | inline fix | ~2 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | inline fix | ~4 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | inline fix | ~4 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | inline fix | ~6 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | inline fix | ~4 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | 3→3 lines | ~12 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | "线性化" → "内部查找" | ~18 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | inline fix | ~12 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | inline fix | ~22 |
+| 21:59 | Edited docs/lsmt_arm64_sve.md | expanded (+27 lines) | ~374 |
+| 22:15 | Edited docs/lsmt_arm64_sve.md | inline fix | ~4 |
+| 22:15 | Edited docs/lsmt_arm64_sve.md | inline fix | ~4 |
+| 22:15 | Edited docs/lsmt_arm64_sve.md | inline fix | ~6 |
+| 22:15 | Edited docs/lsmt_arm64_sve.md | inline fix | ~4 |
+| 22:15 | Edited docs/lsmt_arm64_sve.md | 3→3 lines | ~12 |
+| 22:15 | Edited docs/lsmt_arm64_sve.md | inline fix | ~7 |
+| 22:16 | Edited docs/lsmt_arm64_sve.md | expanded (+22 lines) | ~284 |
+| 22:16 | Edited docs/lsmt_arm64_sve.md | inline fix | ~46 |
+| 22:17 | Edited docs/lsmt_arm64_sve.md | 5→3 lines | ~42 |
+| 22:45 | Edited docs/lsmt_arm64_sve.md | expanded (+25 lines) | ~233 |
+| 23:53 | Edited docs/lsmt_arm64_sve.md | expanded (+13 lines) | ~196 |
+| 23:54 | Edited docs/lsmt_arm64_sve.md | inline fix | ~74 |
+| 00:01 | Edited docs/lsmt_arm64_sve.md | inline fix | ~50 |
+| 00:10 | 博客(博客 md+HTML)与代码解读文档完成：lsmt_arm64_sve.md 十节终稿、lsmt_arm64_sve_code.md 代码解读；双 reader-agent 测试+修改落地 | docs/lsmt_arm64_sve.md, docs/lsmt_arm64_sve_code.md, /tmp/overlaybd-blog/index.html | 完成待终审 | ~95k |

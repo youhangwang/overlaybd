@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-09-04T04:49:00.616Z
-> Files: 221 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-09-05T16:01:53.896Z
+> Files: 222 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -112,6 +112,7 @@
 - `dadi-aliyun-2020-en.md` — Launching 10,000 Containers in Seconds: Inside Alibaba Cloud's Container Image Acceleration (~972 tok)
 - `dadi-aliyun-2020.md` — 秒级启动万个容器，探秘阿里云容器镜像加速黑科技 (~373 tok)
 - `index.html` — Overlay Block Device (~923 tok)
+- `lsmt_arm64_sve.md` — 让容器镜像学会按需读取：overlaybd 的 ARM64 查找优化 (~2302 tok)
 - `lsmt_lookup.md` — Lookup Algorithm in LSMT (~210 tok)
 - `README.md` — Project documentation (~5567 tok)
 - `sbimg.md` — Why Agent Sandboxes Should Use Overlaybd Images (~4168 tok)
